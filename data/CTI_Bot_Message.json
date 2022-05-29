@@ -1,0 +1,110 @@
+{
+  "key_manager": {
+    "error_param":              "THAM SỐ KHÔNG ĐÚNG",
+    "error_vt_key":             "VT KEY KHÔNG HỢP LỆ",
+    "success_add_key":          "THÊM VT KEY THÀNH CÔNG",
+    "error_add_key":            "THÊM VT KEY THẤT BẠI",
+    "error_exist_key":          "VT KEY ĐÃ TỒN TẠI",
+    "error_missing_key":        "VT KEY KHÔNG TỒN TẠI",
+    "error_empty_keys":         "DANH SÁCH KEY TRỐNG",
+    "success_delete_keys":      "ĐÃ XÓA TẤT CẢ VT KEY",
+    "error_delete_keys":        "KHÔNG THỂ XÓA TẤT CẢ VT KEY",
+    "success_delete_key":       "XÓA VT KEY THÀNH CÔNG",
+    "error_delete_key":         "XÓA VT KEY THẤT BẠI",
+    "success_enable_key":       "VT KEY ĐÃ ĐƯỢC BẬT",
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT"
+  },
+  "enterprise": {
+    "error_param":              "THAM SỐ KHÔNG ĐÚNG",
+    "error_vt_key":             "VT KEY KHÔNG HỢP LỆ",
+    "error_invalid_hash":       "HASH KHÔNG HỢP LỆ",
+    "error_invalid_hash_url":   "HASH/URL KHÔNG HỢP LỆ",
+    "error_invalid_url":        "URL KHÔNG HỢP LỆ",
+    "error_missing_hash_url":   "CUNG CẤP HASH/URL HỢP LỆ",
+    "error_invalid_zip_id":     "ZIPID KHÔNG HỢP LỆ",
+    "error_exceed_hash_url":    "SỐ LƯỢNG HASH/URL VƯỢT QUÁ 10",
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT",
+    "error_permission_key":     "KHÔNG CÓ QUYỀN THỰC HIỆN",
+    "error_empty_result":       "KẾT QUẢ TRỐNG"
+  },
+  "files": {
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT"
+  },
+  "urls": {
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT"
+  },
+  "domains": {
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT"
+  },
+  "ip_address": {
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT"
+  },
+  "comment": {
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT"
+  },
+  "vip_member": {
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT",
+    "error_number":             "SỐ LƯỢNG CẤP PHÁT KHÔNG HỢP LỆ",
+    "error_chat_id":            "CHATID KHÔNG HỢP LỆ",
+    "error_username":           "USERNAME KHÔNG HỢP LỆ",
+    "error_vt_key":             "VT KEY KHÔNG HỢP LỆ",
+    "error_param":              "THAM SỐ KHÔNG ĐÚNG",
+    "error_invalid_hash":       "HASH/URL KHÔNG HỢP LỆ",
+    "error_permission_key":     "KHÔNG CÓ QUYỀN THỰC HIỆN",
+    "error_member_not_found":   "MEMBER KHÔNG CÓ TRÊN HỆ THỐNG",
+    "error_member_exist":       "MEMBER ĐƯỢC CẤP QUYỀN TRƯỚC ĐÓ",
+    "success_member_added":     "MEMBER ĐƯỢC CẤP QUYỀN THÀNH CÔNG",
+    "error_member_added":       "MEMBER CHƯA ĐƯỢC CẤP QUYỀN",
+    "error_member_private_key": "MEMBER ĐANG SỬ DỤNG PRIVATE KEY",
+    "error_member_not_granted": "MEMBER KHÔNG CÓ TRONG DS CẤP QUYỀN",
+    "error_member_delete":      "KHÔNG THỂ DỪNG CẤP QUYỀN",
+    "success_member_delete":    "ĐÃ DỪNG CẤP QUYỀN",
+    "error_member_empty":       "BẠN CHƯA CẤP QUYỀN CHO MEMBER",
+    "error_member_expired":     "MEMBER ĐÃ HẾT HẠN SỬ DỤNG",
+    "error_send_file":          "KHÔNG THỂ GỬI FILE! THỬ LẠI",
+    "error_send_message":       "KHÔNG THỂ GỬI TIN NHẮN! THỬ LẠI",
+    "error_logs_empty":         "KHÔNG TÌM THẤY KẾT QUẢ",
+    "error_empty_result":       "KẾT QUẢ TRỐNG",
+    "success_renew_vip":        "GIA HẠN THÀNH CÔNG",
+    "error_renew_vip":          "GIA HẠN KHÔNG THÀNH CÔNG",
+    "error_missing_hash_url":   "CUNG CẤP HASH/URL HỢP LỆ"
+  },
+  "sd": {
+    "error_missing_key":        "CHƯA THIẾT LẬP SD KEY",
+    "error_param":              "THAM SỐ KHÔNG ĐÚNG",
+    "error_invalid_shodan_key": "SD KEY KHÔNG HỢP LỆ",
+    "error_invalid_ipv4":       "IPV4 KHÔNG HỢP LỆ",
+    "error_invalid_domain":     "DOMAIN KHÔNG HỢP LỆ",
+    "error_exceed_domains":     "SỐ LƯỢNG DOMAIN VƯỢT QUÁ 10",
+    "error_exceed_ips":         "SỐ LƯỢNG IPV4 VƯỢT QUÁ 10",
+    "error_exist_key":          "ĐÃ THIẾT LẬP SD KEY TRƯỚC ĐÓ",
+    "error_add_key":            "KHÔNG THỂ THÊM SD KEY",
+    "success_add_key":          "THÊM SD KEY THÀNH CÔNG",
+    "success_delete_key":       "XÓA SD KEY THÀNH CÔNG",
+    "error_delete_key":         "KHÔNG THỂ XÓA SD KEY",
+    "error_empty_result":       "KẾT QUẢ TRỐNG"
+  },
+  "hunting": {
+    "error_enable_key":         "VT KEY CHƯA ĐƯỢC BẬT",
+    "error_permission_key":     "KHÔNG CÓ QUYỀN THỰC HIỆN",
+    "error_permission_user":    "TÀI KHOẢN CHƯA ĐỦ QUYỀN THỰC HIỆN",
+    "error_param":              "THAM SỐ KHÔNG ĐÚNG",
+    "error_invalid_hash":       "HASH KHÔNG HỢP LỆ",
+    "error_invalid_url":        "URL KHÔNG HỢP LỆ",
+    "error_invalid_hunt_id":    "HUNTID KHÔNG HỢP LỆ",
+    "error_exceed_hash":        "SỐ LƯỢNG HASH VƯỢT QUÁ 50",
+    "success_add_job":          "ĐÃ THÊM HUNTING JOB THÀNH CÔNG",
+    "error_add_job":            "KHÔNG THỂ THÊM HUNTING JOB",
+    "error_empty_job":          "DANH SÁCH HUNTING JOB TRỐNG",
+    "error_job_exist":          "HUNTING JOB KHÔNG TỒN TẠI",
+    "success_del_job":          "XÓA HUNTING JOB THÀNH CÔNG",
+    "error_del_job":            "KHÔNG THỂ XÓA HUNTING JOB",
+    "error_job_type_url":       "KHÔNG PHẢI HUNTING JOB URL",
+    "error_job_type_hash":      "KHÔNG PHẢI HUNTING JOB HASH",
+    "success_job_update":       "CẬP NHẬT HUNTING JOB THÀNH CÔNG",
+    "error_job_update":         "CẬP NHẬT HUNTING JOB THẤT BẠI",
+    "error_schedule_time":      "ĐỊNH DẠNG SCHEDULE TIME KHÔNG HỢP LỆ",
+    "error_empty_job_running":  "KHÔNG CÓ HUNTING JOB NÀO ĐANG CHẠY",
+    "success_stop_job":         "ĐÃ DỪNG CÁC HUNTING JOB"
+  }
+}

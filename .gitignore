@@ -1,0 +1,22 @@
+.idea/
+.venv/
+
+# Python Cache
+__pycache__/
+tests/__pycache__/
+vtapi/__pycache__/
+tlgbot/__pycache__/
+tlgconfig/__pycache__/
+tlgshodan/__pycache__/
+tlglogging/__pycache__/
+
+
+# Test files
+tests/result/
+tests/*[.json, .exe, .zip]
+vt-api-test.py
+shodan-api-test.py
+vt-telegram-test.py
+
+# Data files
+data/*[.db, .log]

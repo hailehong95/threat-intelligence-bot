@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  tlgbot:
+    image: tibot:1.0.1
+    env_file:
+      - .env
+    environment:
+      - TLG_BOT_TOKEN=${TLG_BOT_TOKEN}
+    volumes:
+      - ./data:/tibot/data/
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    container_name: tibot
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always

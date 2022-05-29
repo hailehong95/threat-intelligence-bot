@@ -1,0 +1,11 @@
+.env
+.git/
+.idea/
+tests/
+.gitignore
+README.md
+Dockerfile
+vt-api-test.py
+shodan-api-test.py
+vt-telegram-test.py
+docker-compose.yaml
