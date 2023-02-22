@@ -1,6 +1,6 @@
 # Threat Intelligence Bot
 
-For details about using the bot, please refer to the [Docs - Threat Intelligence Bot (Vietnamese)](./docs/README.md)
+For details about using the bot, please refer to the [Docs - Threat Intelligence Bot (Vietnamese)](./docs/README.md) or [PDF version](./docs/Docs%20-%20Threat%20Intelligence%20Bot.pdf).
 
 ## 1. Create Telegram bot and configuration
 
