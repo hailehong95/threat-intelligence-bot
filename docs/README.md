@@ -1,5 +1,40 @@
 # Docs - Threat Intelligence Bot
 
+- [Docs - Threat Intelligence Bot](#docs---threat-intelligence-bot)
+- [1. Bảng điều khiển](#1-bảng-điều-khiển)
+- [2. Trình Quản lý khóa](#2-trình-quản-lý-khóa)
+  - [2.1. Thêm mới khóa VirusTotal](#21-thêm-mới-khóa-virustotal)
+  - [2.2. Xuất thông tin khóa VirusTotal](#22-xuất-thông-tin-khóa-virustotal)
+  - [2.3. Bật khóa VirusTotal](#23-bật-khóa-virustotal)
+  - [2.4. Xóa khóa VirusTotal](#24-xóa-khóa-virustotal)
+  - [2.5. Tải về khóa VirusTotal](#25-tải-về-khóa-virustotal)
+- [3. Quản lý Member](#3-quản-lý-member)
+  - [3.1. Admin cấp VIP cho Member](#31-admin-cấp-vip-cho-member)
+  - [3.2. Admin kiểm tra trạng thái VIP của Member](#32-admin-kiểm-tra-trạng-thái-vip-của-member)
+  - [3.3. Admin Thu hồi VIP của Member](#33-admin-thu-hồi-vip-của-member)
+  - [3.4. Lịch sử truy vấn của VIP Member](#34-lịch-sử-truy-vấn-của-vip-member)
+  - [3.5. Gia hạn VIP Member](#35-gia-hạn-vip-member)
+- [4. Nhóm chức năng cho VIP Member](#4-nhóm-chức-năng-cho-vip-member)
+  - [4.1. Download tệp tin từ VT](#41-download-tệp-tin-từ-vt)
+  - [4.2. VirusTotal Intelligence Search](#42-virustotal-intelligence-search)
+- [5. Sử dụng nhóm tính năng VT Enterprise](#5-sử-dụng-nhóm-tính-năng-vt-enterprise)
+  - [5.1. Kiểm tra khóa đang dùng hay khóa bất kỳ](#51-kiểm-tra-khóa-đang-dùng-hay-khóa-bất-kỳ)
+  - [5.2. Download tệp tin từ VT](#52-download-tệp-tin-từ-vt)
+  - [5.3. VirusTotal Intelligence Search](#53-virustotal-intelligence-search)
+- [6. Sử dụng Shodan Search Engine](#6-sử-dụng-shodan-search-engine)
+  - [6.1. Thêm hoặc Xóa Shodan API Key](#61-thêm-hoặc-xóa-shodan-api-key)
+  - [6.2. Kiểm tra thông tin Shodan API Key](#62-kiểm-tra-thông-tin-shodan-api-key)
+  - [6.3. Tìm kiếm một IP hay một Host trên Shodan](#63-tìm-kiếm-một-ip-hay-một-host-trên-shodan)
+  - [6.4. Tìm kiếm các SubDomain trên Shodan](#64-tìm-kiếm-các-subdomain-trên-shodan)
+  - [6.5. Domain to IP và IP to Domain](#65-domain-to-ip-và-ip-to-domain)
+  - [6.6. Tìm kiếm nâng cao với các bộ lọc trên Shodan](#66-tìm-kiếm-nâng-cao-với-các-bộ-lọc-trên-shodan)
+- [7. VT Hunting](#7-vt-hunting)
+  - [7.1. Khởi tạo các Hunting Job](#71-khởi-tạo-các-hunting-job)
+  - [7.2. Cấu hình và khởi chạy các Hunting Job](#72-cấu-hình-và-khởi-chạy-các-hunting-job)
+  - [7.3. Cập nhật các thay đổi của Hunting Job](#73-cập-nhật-các-thay-đổi-của-hunting-job)
+
+
+
 # 1. Bảng điều khiển
 
 Bảng điều khiển của **Threat Intelligence Bot** là một menu giới thiệu tất cả tính năng hiện sẵn có của Bot. Để show bảng điều khiển chúng ta gửi lệnh:
