@@ -1,5 +1,7 @@
 # Threat Intelligence Bot
 
+For details about using the bot, please refer to the [Docs - Threat Intelligence Bot (Vietnamese)](./docs/README.md)
+
 ## 1. Create Telegram bot and configuration
 
 - Chat with **[BotFather](https://telegram.me/BotFather)** to create Bot, you will receive a `Access Token` string
